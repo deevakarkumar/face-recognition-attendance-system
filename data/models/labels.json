@@ -1,14 +1,20 @@
 {
   "id_to_name": {
-    "0": "Rahil"
+    "0": "DeevakarKumar",
+    "1": "Rahil",
+    "2": "raj"
   },
   "name_to_id": {
-    "Rahil": 0
+    "DeevakarKumar": 0,
+    "Rahil": 1,
+    "raj": 2
   },
-  "num_persons": 1,
-  "num_samples": 95,
+  "num_persons": 3,
+  "num_samples": 205,
   "persons": [
-    "Rahil"
+    "DeevakarKumar",
+    "Rahil",
+    "raj"
   ],
-  "trained_at": "2026-10-23 01:26:21"
+  "trained_at": "2026-10-23 01:46:43"
 }
