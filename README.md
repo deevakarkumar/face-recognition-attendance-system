@@ -63,7 +63,7 @@ proj/
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/face-recognition-attendance-system.git
+git clone https://github.com/deevakarkumar/face-recognition-attendance-system.git
 cd face-recognition-attendance-system
 
 pip install -r requirements.txt
@@ -158,6 +158,14 @@ The system automatically writes to [`attendance.csv`](file:///attendance.csv) an
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit a pull request.
+
+---
+
+## 👤 Author
+
+**Deevakar Kumar**
+- GitHub: [@deevakarkumar](https://github.com/deevakarkumar)
+- Repository: [face-recognition-attendance-system](https://github.com/deevakarkumar/face-recognition-attendance-system)
 
 ---
 
