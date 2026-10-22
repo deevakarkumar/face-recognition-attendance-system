@@ -1,0 +1,14 @@
+{
+  "id_to_name": {
+    "0": "Rahil"
+  },
+  "name_to_id": {
+    "Rahil": 0
+  },
+  "num_persons": 1,
+  "num_samples": 95,
+  "persons": [
+    "Rahil"
+  ],
+  "trained_at": "2026-10-23 01:26:21"
+}
