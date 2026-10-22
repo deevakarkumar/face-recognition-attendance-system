@@ -80,6 +80,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# ----------------- COMPATIBILITY HELPER -----------------
+def render_frame(widget, img, **kwargs):
+    """Safely render image across both older and newer Streamlit versions."""
+    try:
+        widget.image(img, use_column_width=True, **kwargs)
+    except TypeError:
+        widget.image(img, use_container_width=True, **kwargs)
+
+
 # ----------------- SINGLETON RESOURCES -----------------
 @st.cache_resource
 def get_detector():
@@ -245,7 +254,8 @@ with tab_live:
 
                             # Streamlit expects RGB
                             rgb_frame = cv2.cvtColor(display_frame, cv2.COLOR_BGR2RGB)
-                            frame_window.image(rgb_frame, channels="RGB", use_container_width=True)
+                            render_frame(frame_window, rgb_frame, channels="RGB")
+                            time.sleep(0.03)
 
                     finally:
                         cam.release()
